@@ -1,0 +1,88 @@
+const farmers = [
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "mobile": "+91 9876543210",
+    "memberId": "MEM-F-2024-001",
+    "status": "Active",
+    "registeredDate": "2024-01-15",
+    "kycStatus": "Approved",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "mandal": "Ludhiana-I",
+    "landSize": "5-10 acres",
+    "totalLandSize": 7.5 // Average of 5 and 10
+  },
+  {
+    "id": 2,
+    "name": "Sunita Devi",
+    "mobile": "+91 9876543211",
+    "memberId": "MEM-F-2024-002",
+    "status": "Inactive",
+    "registeredDate": "2024-01-14",
+    "kycStatus": "Pending",
+    "state": "Haryana",
+    "district": "Karnal",
+    "mandal": "Karnal-II",
+    "landSize": "2-5 acres",
+    "totalLandSize": 3.5 // Average of 2 and 5
+  },
+  {
+    "id": 3,
+    "name": "Ravi Shankar",
+    "mobile": "+91 9876543212",
+    "memberId": "MEM-F-2024-003",
+    "status": "Active",
+    "registeredDate": "2024-01-13",
+    "kycStatus": "Approved",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "mandal": "Amritsar-I",
+    "landSize": "10+ acres",
+    "totalLandSize": 10 // Assuming minimum of 10 for simplicity
+  },
+  {
+    "id": 4,
+    "name": "Priya Sharma",
+    "mobile": "+91 9876543213",
+    "memberId": "MEM-F-2024-004",
+    "status": "Inactive",
+    "registeredDate": "2024-01-12",
+    "kycStatus": "Rejected",
+    "state": "Haryana",
+    "district": "Panipat",
+    "mandal": "Panipat-I",
+    "landSize": "1-2 acres",
+    "totalLandSize": 1.5 // Average of 1 and 2
+  },
+  {
+    "id": 5,
+    "name": "Vijay Singh",
+    "mobile": "+91 9876543214",
+    "memberId": "MEM-F-2024-005",
+    "status": "Active",
+    "registeredDate": "2024-01-11",
+    "kycStatus": "Approved",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "mandal": "Sanganer",
+    "landSize": "5-10 acres",
+    "totalLandSize": 7.5 // Average of 5 and 10
+  },
+  {
+    "id": 6,
+    "name": "Gita Rani",
+    "mobile": "+91 9876543215",
+    "memberId": "MEM-F-2024-006",
+    "status": "Active",
+    "registeredDate": "2024-01-10",
+    "kycStatus": "Pending",
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "mandal": "Girwa",
+    "landSize": "2-5 acres",
+    "totalLandSize": 3.5 // Average of 2 and 5
+  },
+];
+
+export default farmers;
